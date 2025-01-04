@@ -6,19 +6,19 @@ node_modules/
 logs/
 
 # Dependency directories for both frontend and backend
-frontend/node_modules/
-backend/node_modules/
+client/node_modules/
+server/node_modules/
 
 # Build or production outputs
-frontend/build/
-frontend/dist/
-backend/build/
-backend/dist/
+client/build/
+client/dist/
+server/build/
+server/dist/
 
 # Environment files
 .env
-frontend/.env
-backend/.env
+client/.env
+server/.env
 
 # Temporary files
 *.tmp
